@@ -1,0 +1,35 @@
+# Entornos virtuales
+*.venv/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Cache
+.mypy_cache/
+.pytest_cache/
+
+# Logs
+*.log
+
+# ML
+mlruns/
+mlflow.db
+*.pt
+*.pth
+*.ckpt
+
+
+# macOS
+.DS_Store

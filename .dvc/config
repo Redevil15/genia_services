@@ -1,0 +1,6 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = s3://genia_services
+    endpointurl = https://dagshub.com/api/v1/repo-buckets/s3/Redevil15
+    region = us-east-1

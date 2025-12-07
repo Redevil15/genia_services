@@ -4,6 +4,9 @@
 venv/
 env/
 
+/German-Credit-Risk-Classification.dvc
+/mlruns
+
 # Python
 __pycache__/
 *.pyc

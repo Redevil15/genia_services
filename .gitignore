@@ -4,8 +4,7 @@
 venv/
 env/
 
-/German-Credit-Risk-Classification.dvc
-/mlruns
+/German-Credit-Risk-Classification
 
 # Python
 __pycache__/

@@ -38,6 +38,9 @@ app.add_middleware(
 )
 
 # EndPoint API
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy", "model_loaded": predictor_instance.model is not None}
 @app.get("/", include_in_schema=False)
 async def root():
     """Redirige a la documentación de la API."""
